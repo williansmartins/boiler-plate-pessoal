@@ -36,8 +36,15 @@
     "public": "./public"
   },
   "devDependencies": {
+    "browser-sync": "^0.9.1",
     "gulp": "^3.5.6",
+    "gulp-concat": "^2.2.0",
+    "gulp-jshint": "^1.6.3",
     "gulp-less": "^1.2.3",
+    "gulp-notify": "^1.4.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.2",
+    "gulp-uglify": "^0.3.1",
     "gulp-watch": "~0.6.4"
   },
   "dependencies": {
