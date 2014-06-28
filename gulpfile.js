@@ -44,7 +44,9 @@ gulp.task('scripts', function() {
 // Browserificando
 gulp.task('browser-sync', function() {
   browserSync.init( ['./public/**', './app/views/**'], {
-    proxy: 'projeto1.dev'
+     server: {
+            baseDir: "./"
+        }
   });
 });
 
